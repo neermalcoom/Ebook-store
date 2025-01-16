@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ebook Store - Your go-to online shopping site for all electronic items including smart watches, AirPods, earphones, and mobile accessories.">
+    <title>Ebook Store - Electronic Items</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and Layout */
+        body {
+            background-color: #121212;
+            color: #e0f7fa;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: #0d47a1;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 2.5em;
+        }
+
+        /* Navigation */
+        nav {
+            text-align: center;
+            background-color: #0d47a1;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #e0f7fa;
+            margin: 0 20px;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #1565c0;
+            padding: 40px;
+            text-align: center;
+            color: white;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* Product Section */
+        .product-section {
+            margin-bottom: 40px;
+        }
+
+        .product-section h2 {
+            color: #4caf50;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product-card h3 {
+            font-size: 1.5em;
+            color: #00bcd4;
+            margin-top: 15px;
+        }
+
+        .product-card p {
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+
+        .product-card .price {
+            font-size: 1.4em;
+            color: #4caf50;
+            margin-top: 15px;
+        }
+
+        .product-card button {
+            background-color: #00bcd4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        .product-card button:hover {
+            background-color: #00838f;
+        }
+
+        /* Contact Information */
+        .contact-info {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact-info p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        /* TikTok Link Section */
+        .social-links {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .social-links a {
+            color: #00bcd4;
+            font-size: 1.5em;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0d47a1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1em;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        Ebook Store
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#smartwatches">Smart Watches</a>
+        <a href="#airpods">AirPods</a>
+        <a href="#earphones">Earphones</a>
+        <a href="#accessories">Accessories</a>
+        <a href="#contact">Contact</a>
+        <a href="#social">Social</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2>Welcome to Ebook Store</h2>
+        <p>Your go-to destination for all electronic items—smartwatches, AirPods, earphones, mobile accessories, and more!</p>
+    </div>
+
+    <!-- Smart Watches Section -->
+    <div class="container" id="smartwatches">
+        <div class="product-section">
+            <h2>Smart Watches</h2>
+            <div class="product-grid">
+                <!-- Smart Watch Card Example -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300" alt="Smart Watch Model 1">
+                    <h3>Smart Watch Model 1</h3>
+                    <p>Advanced features with health monitoring and sleek design.</p>
+                    <div class="price">$199.99</div>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300" alt="Smart Watch Model 2">
+                    <h3>Smart Watch Model 2</h3>
+                    <p>Perfect for fitness tracking and notifications.</p>
+                    <div class="price">$249.99</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AirPods Section -->
+    <div class="container" id="airpods">
+        <div class="product-section">
+            <h2>AirPods</h2>
+            <div class="product-grid">
+                <!-- AirPods Card Example -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300" alt="AirPods 2025">
+                    <h3>AirPods 2025</h3>
+                    <p>Premium wireless sound with a secure fit and noise cancellation.</p>
+                    <div class="price">$149.99</div>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300" alt="AirPods Pro">
+                    <h3>AirPods Pro</h3>
+                    <p>Next-level sound quality and noise isolation.</p>
+                    <div class="price">$249.99</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Earphones Section -->
+    <div class="container" id="earphones">
+        <div class="product-section">
+            <h2>Earphones</h2>
+            <div class="product-grid">
+                <!-- Earphones Card Example -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300" alt="Wireless Earphones">
+                    <h3>Wireless Earphones</h3>
+                    <p>Lightweight earphones with excellent sound clarity.</p>
+                    <div class="price">$49.99</div>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300" alt="Sports Earphones">
+                    <h3>Sports Earphones</h3>
+                    <p>Designed for athletes, with water resistance and a secure fit.</p>
+                    <div class="price">$79.99</div>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Accessories Section -->
+    <div class="container" id="accessories">
+        <div class="product-section">
+            <h2>Mobile Accessories</h2>
+            <div class="product-grid">
+                <!-- Accessories Card Example -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300" alt="Phone Case">
+                    <h3>Phone Case</h3>
+                    <p>Protect your phone in style with a premium phone case.</p>
+                    <div class="price">$19.99</div>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300" alt="Charging Cable">
+                    <h3>Charging Cable</h3>
+                    <
